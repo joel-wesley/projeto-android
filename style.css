@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+header {
+    background-image: linear-gradient(to top, #195b38, #3cdb83);
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 0 black;
+}
+
+nav {
+    text-align: left;
+    padding: 5px;
+}
+
+nav .menu > li {
+    display: inline;
+    margin-right: 5px;
+    margin-left: 0;
+    padding: 5px;
+}
+
+nav .menu > li:hover {
+    background-color:#2ea766;
+}
+
+main {
+    background-color: #84e1ad;
+    margin: auto;
+}
+
+main h1, h2 {
+    font-family: idroid;
+    color: #195b32;
+}
+
+.principal {
+    flex-direction: column;
+    margin: 0px 10vw;
+    background-color: white;
+}
+
+h1, h2, p {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+p { 
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    color:#195b38;
+    text-align:justify;
+    text-indent: 1.5em;
+}
+
+p#p-header {
+    color: white;
+    text-indent: 0;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #c5ebd5, white);
+}
+
+picture, img {
+    block-size: auto;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.bugdroid {
+    display: flex;
+    margin:auto;
+    max-width: 30%;
+}
+
+.video {
+    display: flex;
+    box-sizing: content-box;
+    background-color: #195b32;
+    margin: 0;
+    padding: 15px 30px 15px 30px;
+}
+
+.video iframe {
+    align-content: center;
+}
+
+h3 {
+    display: block;
+    background-color: #2ea766;
+    color: white;
+    padding: 10px;
+    margin: 5px 15px 0 15px;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.extra {
+    display: block;
+    background-color: #99e0b88a;
+    margin: 0 15px 15px 15px;
+    border-radius: 0 0 10px 0px;
+}
+
+p#final {
+    margin: 0 5px 0 5px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #195b32;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
